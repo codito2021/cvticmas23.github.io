@@ -1,0 +1,160 @@
+# cvticmas23.github.io
+Proyecto final Ticmas
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estiloCv.css">
+    <script src="./javaCV.js"></script>
+    <title>Curriculum VITAE</title>
+    <link rel="shortcut icon" href="favicon.png">
+</head>
+<body>    
+
+   <div class="grid-bloques">
+        <div class="grid-bloque1">
+            <div id="foto">  <p id="titu" class="titulo"> CURRICULUM VITAE  </p> 
+                <p class="titulo"> Lionel Andrés Messi Cuccittini </p>
+            
+            
+            </div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn" id="menuTelefono"> </button>
+                <div id="myDropdown" class="dropdown-content">
+                    <div class="grid-info">
+                        <div class="grid-fotoInfo">
+                            <img id="fotoMenu"  src="./fotoMenuTelef.PNG" width="80" height="80">
+                            <article class="infoResumen">
+                                <h1 id="titulo1">Campeón del Mundo 2022</h1>
+                                <p id="titulo2">Leo Messi</p>
+                            </article>
+                        </div>
+                        <div class="grid-tituloInfo">                         
+                           
+
+                        </div>
+                        <div class="grid-botonesInfo">
+                            <a href="#modalTelefono"><button class="botonTelefono" id="telefono" >..1122334455</button> </a>
+                            <a href="#modalWsp"><button class="botonTelefono" id="wsp">..1122334455  </button></a>
+                            <a href="#modalTeleg"><button class="botonTelefono" id="teleg">@desa_gueb</button></a>
+                            <a href="#modalMail"><button class="botonTelefono" id="mail">mi@mail.com</button></a>
+                            <a href="#modalMsj"><button class="botonTelefono" id="msj">.Mensajitos....</button></a>
+                           
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="grid-bloque3"> 
+          
+
+            <div id="botones">        
+                <button type="button" id="obj" onclick="mostrarObjetivo()" class="miboton" >  Objetivos </button>
+                <button type="button" id="expe"  onclick="mostrarExperiencia()" class="miboton" >Academico</button>
+                <button type="button" id="forma" onclick="mostrarFormacion()" class="miboton">Experiencias</button>
+                <button type="button" id="refe" onclick="mostrarReferencia()" class="miboton">Referencias</button>
+            </div>   
+            <div class="FotoPortada">
+                <img id="fotoPortada"  src="./fotoPortada.PNG" width="180" height="180">
+            </div>
+            <div>
+                <p class="textoPortada">Jugadoraso: Posición Delantero <br>
+                    Edad: 35 años (Año 2023)<br>
+                    Salario mensual: Escucho ofertas <br>
+                    Peso: 72 kg <br>
+                    Altura: 1.70 m <br>
+                    Lugar de nacimiento: Rosario <br></p>
+            </div>
+            
+        </div>
+        <div class="grid-bloque4">
+
+            <div class="datosClase">
+                <p id="objetivo" style="display:none;" class="texto">Objetivo: Dar felicidad eterna a todos los Argentinos </p>
+                <p id="academico" style="display:none;"class="texto">Formacion Suprema: <br> Estudios universitarios en potreros <br>
+                    Formación Profesional en tiros libres - Formación Universitaria en respuestas picantes <br>
+                    Máster de obtención de balones de oro- Postgrado en copa América - <br>
+                    Doctorado en mundiales </p>
+                <p id="experiencia" style="display:none;" class="texto"> Algunas para nombrar : <br> 10 Ligas -  8 Supercopas de España - 7 Copas del Rey
+                                    4 Champions League -  3 Mundiales de Clubes - 3 Supercopas de Europa -  1 Mundial -1 Ligue -1 Supercopa de Francia - 1 Copa América - 1 Finalissima - 1 Mundial Sub-20 -1 Medalla de Oro en los Juegos Olímpicos -
+                                    9 MVP de la Liga - 8 Pichichis de la Liga -7 Balones de Oro - 6 Botas de Oro - 6 Máximo goleador de la Champions - 4 Onze d'Or -
+                                    2 Mejor Jugador de Europa - 1 MVP Mundial 2022 - 1 Premio The Best - 1 FIFA World Player -  1 Balón de Oro Mundial 2014 -
+                                    1 MVP Copa América 2021 -  1 FIFA FIFPro - 1 Premio Laureus -1 Golden Boy -1 Trofeo Bravo 
+                </p>
+                             
+                <p id="referencia" style="display:none;" class="texto"> Mis Referencias, que te cuenten: <br>
+                    1. Tito Vilanova - 2. Frank Rijkaard - 4. Ronaldinho - 5. José Manuel Pinto <br>
+                - 6. Cesc Fábregas - 7. Pablo Aimar - 8. Xavi Hernández - 9. Juanjo Brau <br> - 10. Cristiano Ronaldo
+                
+                </p>
+           </div>  
+
+        </div>
+
+
+
+
+
+        <div class="grid-bloque5"> 
+               
+            <a href="https://www.instagram.com/"> <input type="image" src="./estrellaInstagram.PNG"  width="60" height="60"> </a> 
+            <a href="https://www.tiktok.com/es/"> <input type="image" src="./estrellaTiki.PNG"  width="60" height="60"> </a>
+            <a href="https://twitter.com/?lang=es"> <input type="image" src="./estrellaTuit.PNG"  width="60" height="60"> </a>
+
+        </div>
+       
+    </div>
+
+    <div id="modalTelefono" class="ventanaModal">
+        <div class="modalVista movedown">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Permitile a tu telefono llamarme....</h2>
+            <p>No te vas a arrepentir...😉</p>            
+        </div>
+    </div>
+    <div id="modalWsp" class="ventanaModal">
+        <div class="modalVista movedown">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Whatsapp es informal....</h2>
+            <p>pero venga ese chat 🙄🙄!</p>            
+        </div>
+    </div>
+    <div id="modalTeleg" class="ventanaModal">
+        <div class="modalVista movedown">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Haaa Pillín! sos de los mios....</h2>
+            <p>sabes lo que es una buena aplicacion!</p>
+            <p>nos vamos a llevar bien.. mande nomas 😅</p>            
+        </div>
+    </div>
+
+    <div id="modalMail" class="ventanaModal">
+        <div class="modalVista movedown">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>El correcto protocolo</h2>
+            <p>Puede fallar por Spam...</p>
+            <p>pero es un riesgo de la formalidad 🧐</p>            
+        </div>
+    </div>
+    
+    <div id="modalMsj" class="ventanaModal">
+        <div class="modalVista movedown">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>El llamado a la reserva..</h2>
+            <p>no hace falta aclarar la edad</p>
+            <p>ni aclarar que es la reserva...🪂</p>            
+        </div>
+    </div>
+  
+
+
+    
+
+    
+</body>
+
+</html>
